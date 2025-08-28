@@ -13,7 +13,7 @@ const Hero = () => {
           alt="Professional cleaning services" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-hero"></div>
+        <div className="absolute inset-0 bg-gradient-hero "></div>
       </div>
 
       {/* Content */}
