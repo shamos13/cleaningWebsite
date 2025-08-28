@@ -2,6 +2,10 @@ import React from 'react';
 import { Home, Building, Sparkles, Truck, Sofa, Bug } from 'lucide-react';
 import residentialImage from '@/assets/residential-cleaning.jpg';
 import commercialImage from '@/assets/commercial-cleaning.jpg';
+import deepCleaning from '@/assets/deep-cleaning.jpg';
+import movers from '@/assets/movers.jpg';
+import fumigation from '@/assets/fumigation.jpg'
+import carpet from '@/assets/carpet.jpg'
 
 const Services = () => {
   const services = [
@@ -26,7 +30,7 @@ const Services = () => {
       title: 'Deep Cleaning',
       description: 'Intensive cleaning service that reaches every corner, perfect for move-ins, special occasions, or seasonal cleaning.',
       icon: Sparkles,
-      image: null,
+      image: deepCleaning,
       features: ['Detailed appliance cleaning', 'Baseboards & trim', 'Light fixtures', 'Cabinet interiors']
     },
     {
@@ -34,7 +38,7 @@ const Services = () => {
       title: 'Move-In/Move-Out',
       description: 'Comprehensive cleaning for transitions, ensuring your new home is spotless or helping you get your deposit back.',
       icon: Truck,
-      image: null,
+      image: movers,
       features: ['Complete property cleaning', 'Appliance cleaning', 'Cabinet cleaning', 'Floor deep clean']
     },
     {
@@ -42,7 +46,7 @@ const Services = () => {
       title: 'Carpet & Upholstery',
       description: 'Professional carpet and furniture cleaning using advanced equipment and eco-friendly cleaning solutions.',
       icon: Sofa,
-      image: null,
+      image: carpet,
       features: ['Steam cleaning', 'Stain removal', 'Odor elimination', 'Fabric protection']
     },
     {
@@ -50,7 +54,7 @@ const Services = () => {
       title: 'Fumigation & Pest Control',
       description: 'Complete pest control solutions to keep your property safe and pest-free with environmentally conscious methods.',
       icon: Bug,
-      image: null,
+      image: fumigation,
       features: ['Comprehensive inspection', 'Safe treatment methods', 'Prevention strategies', 'Follow-up service']
     }
   ];
