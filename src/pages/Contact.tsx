@@ -305,7 +305,7 @@ const Contact = () => {
               </div>
 
               {/* Quick Response Promise */}
-              <div className="bg-gradient-primary rounded-2xl p-6 text-white">
+              <div className="bg-[#C04846] rounded-2xl p-6 text-white">
                 <h3 className="text-xl font-bold mb-3">Quick Response Guarantee</h3>
                 <p className="text-white/90 mb-4">
                   We understand that cleaning needs can be urgent. That's why we guarantee:

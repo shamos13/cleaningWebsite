@@ -52,7 +52,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-accent" />
-                <span className="text-white/90">Nairobi, Kenya</span>
+                <span className="text-white/90">Eldoret, Kenya</span>
               </div>
             </div>
           </div>
@@ -100,7 +100,6 @@ const Footer = () => {
                 <div>
                   <div className="text-white/90">Mon - Fri: 8:00 AM - 6:00 PM</div>
                   <div className="text-white/90">Sat: 9:00 AM - 4:00 PM</div>
-                  <div className="text-white/90">Sun: Emergency Only</div>
                 </div>
               </div>
             </div>

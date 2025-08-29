@@ -88,7 +88,7 @@ const FAQ = () => {
 
         {/* Still have questions CTA */}
         <div className="text-center mt-16">
-          <div className="bg-gradient-primary rounded-2xl p-8 text-white">
+          <div className="bg-[#C04846] rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">Still Have Questions?</h3>
             <p className="text-white/90 mb-6 max-w-2xl mx-auto">
               Can't find the answer you're looking for? Our friendly customer service 

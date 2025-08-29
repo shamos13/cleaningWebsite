@@ -10,8 +10,6 @@ const Navigation = () => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
-    { name: 'Testimonials', path: '/testimonials' },
-    { name: 'FAQ', path: '/faq' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -20,7 +18,7 @@ const Navigation = () => {
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50">
       {/* Top bar with contact info */}
-      <div className="bg-primary text-primary-foreground py-2">
+      <div className="bg-primary/80 text-primary-foreground py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center text-sm">
             <div className="flex items-center space-x-6">
@@ -75,7 +73,7 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Link to="/contact" className="btn-primary">
+            <Link to="/contact" className="btn-primary bg-[#E52223] hover:bg-red-400">
               Get Free Quote
             </Link>
           </div>

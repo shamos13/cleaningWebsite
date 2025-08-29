@@ -15,7 +15,7 @@ const Services = () => {
       description: 'Complete home cleaning services including kitchens, bathrooms, living areas, and bedrooms. Perfect for busy families.',
       icon: Home,
       image: residentialImage,
-      features: ['Regular weekly/monthly cleaning', 'Kitchen & bathroom deep clean', 'Dusting & vacuuming', 'Window cleaning']
+      features: ['Regular, weekly & monthly cleaning', 'Kitchen & bathroom deep clean', 'Dusting & vacuuming', 'Window cleaning','Pool Scrubbing and cleaning']
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const Services = () => {
       description: 'Professional office and commercial space cleaning to maintain a healthy and productive work environment.',
       icon: Building,
       image: commercialImage,
-      features: ['Office spaces', 'Restroom sanitization', 'Floor maintenance', 'Trash removal']
+      features: ['Office spaces', 'Restroom sanitization', 'Floor maintenance', 'Trash removal','Special Events/After party cleaning']
     },
     {
       id: 3,
@@ -31,15 +31,15 @@ const Services = () => {
       description: 'Intensive cleaning service that reaches every corner, perfect for move-ins, special occasions, or seasonal cleaning.',
       icon: Sparkles,
       image: deepCleaning,
-      features: ['Detailed appliance cleaning', 'Baseboards & trim', 'Light fixtures', 'Cabinet interiors']
+      features: ['Detailed appliance cleaning', 'Baseboards & trim', 'Tank Cleaning', 'Cabinet interiors','Floor Restoration and Maintenance']
     },
     {
       id: 4,
-      title: 'Move-In/Move-Out',
+      title: 'Move-In/Move-Out & Post Construction Cleaning',
       description: 'Comprehensive cleaning for transitions, ensuring your new home is spotless or helping you get your deposit back.',
       icon: Truck,
       image: movers,
-      features: ['Complete property cleaning', 'Appliance cleaning', 'Cabinet cleaning', 'Floor deep clean']
+      features: ['Complete property cleaning','Cabinet cleaning', 'Floor deep clean']
     },
     {
       id: 5,
@@ -132,7 +132,7 @@ const Services = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <div className="bg-gradient-primary rounded-2xl p-8 text-white">
+          <div className="bg-[#C04846] rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">Ready to Get Started?</h3>
             <p className="text-white/90 mb-6 max-w-2xl mx-auto">
               Contact us today for a free consultation and personalized quote. 
