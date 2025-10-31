@@ -120,10 +120,7 @@ const Services = () => {
                     ))}
                   </ul>
 
-                  {/* Action Button */}
-                  <button className="w-full btn-outline text-sm py-2">
-                    Learn More
-                  </button>
+                 
                 </div>
               </div>
             );
